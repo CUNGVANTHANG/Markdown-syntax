@@ -25,6 +25,7 @@
 ## I. Văn bản thuần
 
 ### 1. Tiêu đề - Heading
+[:arrow_up: Mục lục](#mục-lục)
 
 Bạn có thể viết loại tiêu đề `<h1>, <h2>,... <h6>` bằng cách thêm các dấu # tương ứng vào đầu dòng.
 
@@ -49,6 +50,7 @@ Kết quả:
 ###### Tiêu đề loại 6
 
 ### 2. Đoạn văn - Paragraph
+[:arrow_up: Mục lục](#mục-lục)
 
 Để xuống dòng giữa các văn bản `<p>`, sử dụng một dòng trống để tách các dòng văn bản.
 
@@ -65,6 +67,7 @@ Kết quả:
 Đây là dòng 2
 
 ### 3. Chữ in nghiêng - Italic
+[:arrow_up: Mục lục](#mục-lục)
 
 Để in nghiêng văn bản `<i>`, thêm một dấu * hoặc dấu _ trước và sau từ cần in nghiêng.
 
@@ -81,6 +84,7 @@ Kết quả:
 _Từ cần in nghiêng 2_
 
 ### 4. Chữ in đậm - Bold
+[:arrow_up: Mục lục](#mục-lục)
 
 Để in đậm văn bản `<b>`, thêm hai dấu * hoặc dấu _ trước và sau từ cần in đậm.
 
@@ -97,6 +101,7 @@ Kết quả:
 __Từ cần in đậm 2__
 
 ### 5. In đậm và in nghiêng
+[:arrow_up: Mục lục](#mục-lục)
 
 Đơn giản, bạn chỉ cần ba dấu * hoặc dấu _ trước và sau từ đó.
 
@@ -113,6 +118,7 @@ Kết quả:
 ___Từ in đậm và in nghiêng 2___
 
 ### 6. Chữ gạch giữa - Strikethrough
+[:arrow_up: Mục lục](#mục-lục)
 
 Để tạo chữ gạch giữa, thêm 2 dấu ~ trước và sau từ đó.
 
@@ -125,6 +131,7 @@ Kết quả:
 ~~Khuyến mại~~
 
 ### 7. Code trong dòng - Inline Code
+[:arrow_up: Mục lục](#mục-lục)
 
 Để viết inline `<code>`, bạn dùng 2 dấu ` ở trước và sau từ đó.
 
@@ -139,6 +146,7 @@ Kết quả:
 ## II. Các khối
 
 ### 1. Trích dẫn - Blockquote
+[:arrow_up: Mục lục](#mục-lục)
 
 Để tạo một `<blockquote>`, thêm dấu > vào trước mỗi dòng trích dẫn.
 
@@ -153,6 +161,7 @@ Kết quả:
 > Trích dẫn dòng 2
 
 ### 2. Danh sách có thứ tự - Ordered List
+[:arrow_up: Mục lục](#mục-lục)
 
 Để tạo danh sách `<ol><li>`, bạn chỉ cần thêm các số, dấu chấm trước nội dung (dùng tab để phân cấp)
 
@@ -169,6 +178,7 @@ Kết quả:
 3. Mục thứ ba
 
 ### 3. Danh sách không có thứ tự - Unordered List
+[:arrow_up: Mục lục](#mục-lục)
 
 Để tạo danh sách `<ul><li>`, bạn chỉ cần thêm dấu * hoặc - hoặc + trước nội dung (dùng tab để phân cấp)
 
@@ -185,6 +195,7 @@ Kết quả:
 - Mục thứ ba
 
 ### 4. Khối lệnh - Block Code
+[:arrow_up: Mục lục](#mục-lục)
 
 Để viết 1 đoạn `<code>`, bạn dùng 3 dấu ` ở trước và sau đoạn đó (có thể thêm format ngôn ngữ đó).
 
@@ -199,6 +210,7 @@ console.log("Hello Word")
 ```
 
 ### 5. Bảng - Table
+[:arrow_up: Mục lục](#mục-lục)
 
 Để tạo bảng `<table><tbody><tr><th><th>`, bạn chỉ cần ngăn cách bởi dấu | và cách đầu bảng với thân bảng bằng :--- (số dấu - tuỳ ý)
 
@@ -221,6 +233,7 @@ Kết quả
 ## III. Đặc biệt
 
 ### 1. Đường kẻ ngang - Horizonal rules
+[:arrow_up: Mục lục](#mục-lục)
 
 Để tạo đường kẻ ngang, sử dụng ba dấu * hoặc - hoặc _ trên một dòng.
 
@@ -237,6 +250,7 @@ Kết quả:
 ___
 
 ### 2. Liên kết - Link
+[:arrow_up: Mục lục](#mục-lục)
 
 Để chèn trực tiếp, bạn có thể paste thẳng nó như bình thường.
 
@@ -255,6 +269,7 @@ Trực tiếp: https://github.com/CUNGVANTHANG
 Gián tiếp: [Github](https://github.com/CUNGVANTHANG)
 
 ### 3. Hình ảnh - Image
+[:arrow_up: Mục lục](#mục-lục)
 
 Để chèn trực tiếp, bạn có thể paste thẳng nó như bình thường.
 
@@ -277,6 +292,7 @@ Kết quả:
 ```
 
 ### 4. Checkbox
+[:arrow_up: Mục lục](#mục-lục)
 
 Để chèn `checkbox/checked` (thường dùng cho to do list trên github) thì ta đánh dấu như list và thêm 1 cặp ngoặc vuông.
 
@@ -293,6 +309,7 @@ Kết quả:
 - [x] Checked
 
 ### 5. Escape markdown
+[:arrow_up: Mục lục](#mục-lục)
 
 Đôi khi bạn sẽ cần những kí hiệu trùng với cú pháp của markdown. Để phân biệt, bạn chỉ cần thêm dấu \ trước những kí hiệu đó là được.
 
@@ -309,6 +326,7 @@ Kết quả:
 \*\*\*ba dấu sao hai bên\*\*\*
 
 ### 6. Biểu tượng cảm xúc - Icon
+[:arrow_up: Mục lục](#mục-lục)
 
 Phần này tuỳ vào nền tảng (Github, Discord, ...) có icon đó không, bạn ghi dấu : và tên icon.
 
@@ -330,6 +348,7 @@ Complete list of github markdown emoji
 - [Symbols](#symbols)
 
 ### People
+[:arrow_up: 6. Biểu tượng cảm xúc - Icon](#6-biểu-tượng-cảm-xúc---icon)
 
 | Github | Emojis | List |
 | --- | --- | --- |
@@ -400,6 +419,7 @@ Complete list of github markdown emoji
 | :suspect: `:suspect:` | :trollface: `:trollface:` | 
 
 ### Nature
+[:arrow_up: 6. Biểu tượng cảm xúc - Icon](#6-biểu-tượng-cảm-xúc---icon)
 
 | Github | Emojis | List |
 | --- | --- | --- |
@@ -444,6 +464,7 @@ Complete list of github markdown emoji
 | :squirrel: `:squirrel:` |
 
 ### Objects
+[:arrow_up: 6. Biểu tượng cảm xúc - Icon](#6-biểu-tượng-cảm-xúc---icon)
 
 | Github | Emojis | List |
 | --- | --- | --- |
@@ -536,6 +557,7 @@ Complete list of github markdown emoji
 | :corn: `:corn:` |
 
 ### Places
+[:arrow_up: 6. Biểu tượng cảm xúc - Icon](#6-biểu-tượng-cảm-xúc---icon)
 
 | Github | Emojis | List |
 | --- | --- | --- |
@@ -577,6 +599,7 @@ Complete list of github markdown emoji
 | :de: `:de:` |
 
 ### Symbols
+[:arrow_up: 6. Biểu tượng cảm xúc - Icon](#6-biểu-tượng-cảm-xúc---icon)
 
 | Github | Emojis | List |
 | --- | --- | --- |
