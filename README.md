@@ -1,6 +1,6 @@
 # CÁCH SỬ DỤNG MARKDOWN
 ## Mục lục
-- [I. Văn bản thuần](#1-văn-bản-thuần)
+- [I. Văn bản thuần](#i-văn-bản-thuần)
   - [1. Tiêu đề - Heading](#1-tiêu-đề---heading)
   - [2. Đoạn văn - Paragraph](#2-đoạn-văn---paragraph)
   - [3. Chữ in nghiêng - Italic](#3-chữ-in-nghiêng---italic)
@@ -8,13 +8,13 @@
   - [5. In đậm và in nghiêng](#5-in-đậm-và-in-nghiêng)
   - [6. Chữ gạch giữa - Strikethrough](#6-chữ-gạch-giữa---strikethrough)
   - [7. Code trong dòng - Inline Code](#7-code-trong-dòng---inline-code)
-- [II. Các khối](#2-các-khối)
+- [II. Các khối](#ii-các-khối)
   - [1. Trích dẫn - Blockquote](#1-trích-dẫn---blockquote)
   - [2. Danh sách có thứ tự - Ordered List](#2-danh-sách-có-thứ-tự---ordered-list)
   - [3. Danh sách không có thứ tự - Unordered List](#3-danh-sách-không-có-thứ-tự---unordered-list)
   - [4. Khối lệnh - Block Code](#4-khối-lệnh---block-code)
   - [5. Bảng - Table](#5-bảng---table)
-- [III. Đặc biệt](#3-đặc-biệt)
+- [III. Đặc biệt](#iii-đặc-biệt)
   - [1. Đường kẻ ngang - Horizonal rules](#1-đường-kẻ-ngang---horizonal-rules)
   - [2. Liên kết - Link](#2-liên-kết---link)
   - [3. Hình ảnh - Image](#3-hình-ảnh---image)
