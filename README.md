@@ -1,4 +1,6 @@
 # CÁCH SỬ DỤNG MARKDOWN
+_Mọi syntax HTML đều có thể dùng trong Markdown_
+
 ## Mục lục
 - [I. Văn bản thuần](#i-văn-bản-thuần)
   - [1. Tiêu đề - Heading](#1-tiêu-đề---heading)
@@ -21,6 +23,7 @@
   - [4. Checkbox](#4-checkbox)
   - [5. Escape markdown](#5-escape-markdown)
   - [6. Biểu tượng cảm xúc - Icon](#6-biểu-tượng-cảm-xúc---icon)
+  - [7. Toggle switch](#7-toggle-switch)
 
 ## I. Văn bản thuần
 
@@ -668,3 +671,39 @@ Complete list of github markdown emoji
 | :large_blue_circle: `:large_blue_circle:` | :large_blue_diamond: `:large_blue_diamond:` | :large_orange_diamond: `:large_orange_diamond:` |
 | :small_blue_diamond: `:small_blue_diamond:` | :small_orange_diamond: `:small_orange_diamond:` | :small_red_triangle: `:small_red_triangle:` |
 | :small_red_triangle_down: `:small_red_triangle_down:` | :shipit: `:shipit:` |
+
+### 7. Toggle switch
+[:arrow_up: Mục lục](#mục-lục)
+
+```
+<details>
+  <summary>Toggle Switch</summary>
+  <ul>
+    <li>Nội dung 1</li>
+  </ul>
+  <ul>
+    <li>Nội dung 2</li>
+  </ul>
+  <ul>
+    <li>Nội dung 3</li>
+  </ul>
+</details>
+```
+
+_Kết quả:_
+
+<details>
+  <summary>Toggle Switch</summary>
+  <ul>
+    <li>Nội dung 1</li>
+  </ul>
+  <ul>
+    <li>Nội dung 2</li>
+  </ul>
+  <ul>
+    <li>Nội dung 3</li>
+  </ul>
+</details>
+
+Thẻ `<details>` sẽ có thể gập lại được (có thể chuyển đổi). Nội dung bên trong thẻ `<summary>` sẽ được coi là nội dung của nút chuyển đổi. Dưới thẻ `<summary>` là nội dung 1, nội dụng 2, ...
+
