@@ -746,6 +746,9 @@ Thẻ `<details>` sẽ có thể gập lại được (có thể chuyển đổi
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
+
+> [!FAQ]- Are callouts foldable?
+> Yes! In a foldable callout, the contents are hidden when the callout is collapsed.
 ```
 
 **Kết quả:**
@@ -787,10 +790,9 @@ $\sqrt{3x-1}+(1+x)^2$
 Cú pháp:
 
 ```
+```math
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 ```
-
-Đặt đoạn mã trên vào trong đây `"```math "`
 
 Kết quả:
 
