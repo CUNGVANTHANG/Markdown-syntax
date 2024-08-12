@@ -1,4 +1,5 @@
 # CÁCH SỬ DỤNG MARKDOWN
+
 _Mọi syntax HTML đều có thể dùng trong Markdown_
 
 ## Mục lục
@@ -24,6 +25,10 @@ _Mọi syntax HTML đều có thể dùng trong Markdown_
   - [5. Escape markdown](#5-escape-markdown)
   - [6. Biểu tượng cảm xúc - Icon](#6-biểu-tượng-cảm-xúc---icon)
   - [7. Toggle switch](#7-toggle-switch)
+  - [8. Cảnh báo](#8-cảnh-báo)
+- [IV. Biểu thức](#iv-biểu-thức)
+  - [1. Nội tuyến](#1-nội-tuyến)
+  - [2. Khối mã](#2-khối-mã)
 
 ## I. Văn bản thuần
 
@@ -232,6 +237,22 @@ Kết quả
 | A | B | C | D |
 | E | F | G | H |
 | I | K | L | M |
+
+Cách căn lề: trái, giữa, phải
+
+```
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+```
+
+Kết quả
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
 
 ## III. Đặc biệt
 
@@ -707,3 +728,72 @@ _Kết quả:_
 
 Thẻ `<details>` sẽ có thể gập lại được (có thể chuyển đổi). Nội dung bên trong thẻ `<summary>` sẽ được coi là nội dung của nút chuyển đổi. Dưới thẻ `<summary>` là nội dung 1, nội dụng 2, ...
 
+### 8. Cảnh báo
+[:arrow_up: Mục lục](#mục-lục)
+
+```
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+```
+
+**Kết quả:**
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+## III. Biểu thức
+[:arrow_up: Mục lục](#mục-lục)
+
+### 1. Nội tuyến
+[:arrow_up: Mục lục](#mục-lục)
+
+Cú pháp:
+
+```
+$\sqrt{3x-1}+(1+x)^2$
+```
+
+Kết quả:
+
+$\sqrt{3x-1}+(1+x)^2$
+
+### 2. Mã khối
+[:arrow_up: Mục lục](#mục-lục)
+
+Cú pháp:
+
+```
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
+
+Đặt đoạn mã trên vào trong đây `"```math "`
+
+Kết quả:
+
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
